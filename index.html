@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <title>Todo Task App</title>
+    <link href="css/todo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1 id="header-form1">Todo List </h1>
+
+        <form id="todoform">
+            <input type="text" id="task_input" placeholder="Add Task"/><input type="date" id="todo_date" placeholder="Due Date"/>
+            <button id="add_task">Add</button>
+            <button id="sort_task">Sort</button>
+            <input type="hidden" id="savetodo"/>
+            <button id="save_task" style="display: none;">Save</button>
+        </form>
+    </header>
+
+    <main>
+        <section id="task_list">
+            <h2>Tasks</h2>
+
+            <div id="todolist">
+                
+
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/todo.js"></script>
+</body>
+
+</html>

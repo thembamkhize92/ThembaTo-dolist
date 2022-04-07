@@ -1,0 +1,91 @@
+body {
+    margin-top: 5%;
+    background-color: aqua;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+#task_input {
+    flex: 1 1 0%;
+    background-color: rgb(198, 211, 197);
+    padding: 10px;
+    border-radius: 1rem;
+    margin-left: 2%;
+
+}
+
+#todo_date {
+    flex: 1 1 0%;
+    background-color: rgb(198, 211, 197);
+    padding: 10px;
+    border-radius: 1rem;
+    margin-left: 2%;
+
+}
+
+#add_task {
+    background-color: greenyellow;
+    font-weight: 700;
+    border-radius: 1rem;
+}
+
+#sort_task {
+    background-color: rgb(223, 111, 19);
+    font-weight: 700;
+    border-radius: 1rem;
+
+}
+
+main {
+    flex: 1 1 0%;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#task_list {
+    padding: 1rem;
+}
+
+.newinput {
+    background-color: rgb(205, 164, 218);
+    padding: 1px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.savetodo{
+    background-color: rgb(223, 111, 19);
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-left: 2%;
+}
+
+.delete{
+    background-color: crimson;
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-left: 2%;
+}
+
+#save_task {
+    background-color: rgb(37, 223, 12);
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-left: 2%;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
